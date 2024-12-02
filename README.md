@@ -1,27 +1,33 @@
-# Text Readability Analyzer
+# NLP Text Analysis and Classification Tools
 
-A Python-based tool for analyzing text readability, complexity, and quality. It provides comprehensive metrics including Gunning Fog Index, spell checking, and detailed text statistics.
+A comprehensive suite of Natural Language Processing (NLP) tools for text analysis and classification. This project includes multiple tools for text analysis, manual classification, and automated classification using spaCy.
 
 ## Features
 
-- **Text Analysis**
-  - Word count and unique words
-  - Sentence count
-  - Average words per sentence
-  - Most common words (excluding stop words)
-  - Word frequency distribution
+### 1. Text Analysis (1-text_analyzer.py)
+- Basic text statistics (word count, sentence count)
+- Readability analysis using Gunning Fog Index
+- Spell checking with technical term preservation
+- Word frequency analysis
+- Paragraph-by-paragraph processing
+- Automated spelling correction
 
-- **Readability Analysis**
-  - Gunning Fog Index calculation
-  - Complex word identification
-  - Syllable counting
-  - Education level estimation
+### 2. Manual Classification (2-manual_classifier.py)
+- Manual text classification interface
+- Support for custom categories
+- Interactive classification process
+- Output segregation by category
 
-- **Spell Checking**
-  - Automatic spell correction
-  - Technical term preservation (NLP, AI, etc.)
-  - Proper handling of contractions
-  - Detailed correction reporting
+### 3. SpaCy Classification
+- **Manual SpaCy Classifier** (3-manual_spacy_classifier.py)
+  - Training data creation
+  - Manual labeling interface
+  - SpaCy model integration
+  
+- **Automated SpaCy Classifier** (4-spacy_classifier.py)
+  - Automated text classification
+  - Pre-trained model utilization
+  - Multi-category support
 
 ## Installation
 
