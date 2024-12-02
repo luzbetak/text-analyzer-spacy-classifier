@@ -13,3 +13,6 @@ pip install -U pip setuptools wheel
 pip install spacy
 python -m spacy download en_core_web_sm
 #-------------------------------------------------------------#
+source .venv/bin/activate
+pip install -r requirements.txt
+#-------------------------------------------------------------#
