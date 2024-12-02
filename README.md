@@ -33,8 +33,7 @@ A comprehensive suite of Natural Language Processing (NLP) tools for text analys
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/luzbetak/text-readability-analyzer.git
-cd text-readability-analyzer
+git clone <repository-url>
 ```
 
 2. Create a virtual environment (optional but recommended):
@@ -46,6 +45,15 @@ source .venv/bin/activate  # On Windows, use: .venv\Scripts\activate
 3. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+4. Download required models and data:
+```bash
+# Download spaCy English model
+python -m spacy download en_core_web_sm
+
+# Download required NLTK data
+python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 ```
 
 ## Usage
